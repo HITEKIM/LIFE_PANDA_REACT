@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import './index.css';
+import { Top } from "./page/top"
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <span>test11111</span>
+      <Top title={"TITLE"}></Top>
+
+      <span>test11111</span>
   </React.StrictMode>
 );
 
